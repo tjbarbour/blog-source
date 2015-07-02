@@ -2,7 +2,7 @@
 categories = ["UX"]
 date = "2015-07-02T01:43:44-07:00"
 description = "When your own focus is turned against you..."
-draft = true
+draft = false
 image = "/img/photo-stefan-gessert-n-141.jpg"
 tags = ["ux", "bad-dog", "rant", "yes-im-doing-tag-jokes"]
 title = "fatal focus"
