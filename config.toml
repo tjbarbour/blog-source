@@ -14,7 +14,7 @@ copyright = "Code released under the Apache 2.0 license.."
   Author = "T.J. Barbour"
   email = "tjbarbour@gmail.com"
   Ganalytics = "XX-00000000-0"
-  Description = "T.J.'s personal site and blog"
+  Description = "Software Developer focused on UX / Web / .net"
 
 [[params.social]]
     title = "twitter"
@@ -25,6 +25,10 @@ copyright = "Code released under the Apache 2.0 license.."
 [[params.social]]
     title = "stack-overflow"
     url = "http://stackoverflow.com/users/37207/tjb"
+
+[[params.social]]
+    title = "linkedin"
+    url = "https://www.linkedin.com/in/tjbarbour"
 
 [[menu.main]]
   name = "home"
@@ -37,4 +41,8 @@ copyright = "Code released under the Apache 2.0 license.."
  [[menu.main]]
   name = "About"
   url = "/about"
+  weight = -180
+  [[menu.main]]
+  name = "Resume"
+  url = "https://dl.dropboxusercontent.com/u/4111188/TJ-Barbour-Resume.pdf"
   weight = -180
