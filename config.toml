@@ -1,3 +1,40 @@
-baseurl = "http://replace-this-with-your-hugo-site.com/"
+baseurl = "tjbarbour.com"
+title = "T.J. Barbour"
+canonifyurls = true
+paginate = 10
+theme = "startbootstrap-clean-blog"
 languageCode = "en-us"
-title = "My New Hugo Site"
+copyright = "Code released under the Apache 2.0 license.."
+
+
+[author]
+    name = "T.J. Barbour"
+[params]
+  DateForm = "Mon, Jan 2, 2006"
+  Author = "T.J. Barbour"
+  email = "tjbarbour@gmail.com"
+  Ganalytics = "XX-00000000-0"
+  Description = "T.J.'s personal site and blog"
+
+[[params.social]]
+    title = "twitter"
+    url = "https://twitter.com/tjbarbour"
+[[params.social]]
+    title = "github"
+    url = "https://github.com/tjbarbour"
+[[params.social]]
+    title = "stack-overflow"
+    url = "http://stackoverflow.com/users/37207/tjb"
+
+[[menu.main]]
+  name = "home"
+  url = "/"
+  weight = -200
+[[menu.main]]
+  name = "Archives"
+  url = "/post/"
+  weight = -180
+ [[menu.main]]
+  name = "About"
+  url = "/about"
+  weight = -180
